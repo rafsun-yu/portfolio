@@ -1,0 +1,43 @@
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.profile img {
+	width: 256px;
+	border-radius: 50%;
+}
+
+.content {
+	display: flex;
+	gap: 16px;
+}
+
+.personal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.personal h1 {
+	margin: 0;
+}
+
+.personal p {
+	margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 0px;
+	}
+
+	.personal h1 {
+		font-size: 18pt;
+	}
+}

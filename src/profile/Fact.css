@@ -1,0 +1,20 @@
+.fact {
+	display: flex;
+	gap: 4px;
+	align-items: center;
+	padding: 4px;
+	width: fit-content;
+}
+
+.fact img {
+	width: 16px;
+}
+
+.fact a {
+	text-decoration: none;
+}
+
+.fact a:link,
+:visited {
+	color: rgb(42, 125, 158);
+}
