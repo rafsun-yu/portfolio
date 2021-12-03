@@ -1,0 +1,12 @@
+.bg {
+	background-image: url("background.jpg");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	background-attachment: fixed;
+	position: fixed;
+	height: 25%;
+	width: 100%;
+	z-index: -1;
+}

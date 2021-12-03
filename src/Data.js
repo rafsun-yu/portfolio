@@ -33,7 +33,27 @@ const Data = {
 	},
 	skillgroups: [
 		{
-			name: "Technical Skills",
+			name: "Interests",
+			skills: [
+				{
+					name: "Pixel Art",
+				},
+				{
+					name: "Software Engineering",
+				},
+				{
+					name: "Video Games",
+				},
+				{
+					name: "Books",
+				},
+				{
+					name: "Piano",
+				},
+			],
+		},
+		{
+			name: "Skills",
 			skills: [
 				{
 					name: "Python",
@@ -50,26 +70,6 @@ const Data = {
 				{
 					name: "Unix\\Bash",
 					icon: "./icons/linux.png",
-				},
-			],
-		},
-		{
-			name: "Courses",
-			skills: [
-				{
-					name: "Discrete Mathematics",
-				},
-				{
-					name: "Software Tools",
-				},
-				{
-					name: "Computer Organization",
-				},
-				{
-					name: "OO Programming",
-				},
-				{
-					name: "Software Design",
 				},
 			],
 		},
