@@ -1,0 +1,17 @@
+.skill {
+	display: flex;
+	gap: 4px;
+	align-items: center;
+	padding: 8px;
+	background-color: rgb(194, 238, 255);
+	width: fit-content;
+	border-radius: 24px;
+}
+
+.skill img {
+	width: 16px;
+}
+
+.skill h1 {
+	text-align: center;
+}

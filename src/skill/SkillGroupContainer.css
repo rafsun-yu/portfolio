@@ -1,0 +1,24 @@
+.skill-group-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: aliceblue;
+}
+
+.skill-group + .skill-group {
+	border-left: 1px solid rgb(216, 216, 216);
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.skill-group-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.skill-group + .skill-group {
+		border: none;
+		border-top: 1px solid rgb(216, 216, 216);
+	}
+}

@@ -1,0 +1,21 @@
+.skill-group {
+	display: flex;
+	flex-direction: column;
+	width: 256px;
+	align-items: center;
+	padding: 16px;
+	margin: 0;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+.skill-group h1 {
+	margin: 0;
+	margin-bottom: 16px;
+}
